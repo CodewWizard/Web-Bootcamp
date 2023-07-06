@@ -2,12 +2,51 @@
     margin: 0 auto;
     border: 1px solid black;
     height: 200px;
-    width: 500px;
+    width: 100%;
+
+    /* initialize the container as flex box */
     display: flex;
+
+    /* Default value of flex-directtion is row */
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* flex wrap--- (Default value is nowrap) */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+
+    /* justify-content makes horizantally center */
+    /* justify-content: center; */
+    /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align-items makes vertically center */
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+
 }
 
 .container div{
     border: 1px solid red;
-    height: 40px;
-    width: 55px;
+    background-color: lightblue;
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    padding: 3px;
+}
+
+#item-1{
+    background-color: yellowgreen;
+    order: 2;
+    flex-grow: 2;
+    /* flex - flex-grow flex-shrink flex-basis */
+    align-self: flex-end;
+    align-self: flex-start;
+    align-items: center;
 }
