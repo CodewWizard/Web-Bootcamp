@@ -1,0 +1,13 @@
+ - we cannot apply height and width to span tag.
+ - RGB - Red Green Blue channel
+ - Each channel ranges from 0 - 255
+
+Adjacent selector in css
+ - input + button{} means select the one button comes an after immediate of input 
+
+Direct child
+
+ - div > li {} means only th <li>'s that are direct children of div element
+
+Attriute selector 
+	- input[type="password"]{} means select input which has password attribute

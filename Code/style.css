@@ -1,0 +1,87 @@
+/* div{
+    width:100px;
+    height:100px;
+    background-color: #3d405b;
+    border:2px solid black;
+    margin:10px;
+    display: inline-block;
+}
+
+#middle{
+    background-color: #81b29a;
+}
+
+#static #middle{
+    position: static;
+
+    top does not reflected to static position element
+    top:100px
+}
+
+#relative #middle{
+    position: relative;
+    top:100px;
+    left: 100px;
+} */
+
+
+.circle{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transition: background-color 1s 1s;
+}
+
+.circle:hover{
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#red{
+    /* color: rgb(255, 0, 0); */
+    color:#ff0000
+}
+
+#green{
+    color:rgb(0, 255, 0);
+}
+
+#blue{
+    color:rgb(0, 0, 255);
+}
+
+#random{
+    color:rgb(173, 20, 219)
+}
+
+ul a{
+    color : teal;
+}
+
+input + button{
+    background-color: aqua;
+}
+
+div > li{
+    background-color:blueviolet;
+}
+
+p::first-line{
+    color: orange;
+}
+
+p::selection{
+    background-color: tomato;
+}
+
+h1::selection{
+    background-color:lightcoral
+}
+
+h2{
+    color:red;
+}
+
+h2{
+    color: purple;
+}
