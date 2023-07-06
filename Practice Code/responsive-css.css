@@ -30,3 +30,27 @@
     height: 10%;
     display: inline;
 }
+
+nav {
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:300px){
+    nav, ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}

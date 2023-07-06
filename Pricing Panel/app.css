@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+
+.box{
+    width: 86%;
+    height: 500px;
+    margin-top:30px;
+    margin-left:70px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+}
