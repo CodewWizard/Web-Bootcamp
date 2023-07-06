@@ -1,0 +1,35 @@
+.box{
+    /* font-size: 20px; */
+}
+
+#first-heading{
+    text-align: center;
+    background-color:rgb(189, 189, 0) ;
+    border: 1px solid black;
+
+    /* em means it multiplies of parent size
+    in this ex, 5 multiplies their parent size means 100x */
+    font-size: 5em;
+
+    /* padding and margin counts their parent size, means parent is
+     font size so, 100* 2 is 200px so padding will be 300px */
+    padding: 2em;
+}
+
+html{
+    /* font-size: 20px; */
+}
+
+#second-heading{
+    /* rem means its relative to root element means html 
+    in this example our root font size is 20, so 20*2 = 40px */
+    font-size: 2rem;
+}
+
+#third-heading{
+    background-color:burlywood ;
+    border: 2px solid black;
+    /* vh means viewport height and vw means viewport width */
+    height: 100vh;
+    width: 100vh;
+}

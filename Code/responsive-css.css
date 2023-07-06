@@ -1,16 +1,30 @@
 .demo{
     background-color: blue;
 }
-
-/* @media only screen and (min-width:600px) {
+/* min-width means if width is equal to 600 and greater than 600 then it will be turn out to brown */
+/* @media (min-width:600px) {
     .demo{
         background-color: brown;
     }
 } */
 
+/* max-width means upto 400px it will be green */
+/* @media (max-width:400px){
+    .demo{
+        background-color: green;
+    }
+}
+ */
+ 
 
+/* it means the width between 200-500px will be tomato color */
+@media (min-width:200px) and (max-width:500px){
+    .demo{
+        background-color: tomato;
+    }
+}
 
-.box{
+ .box{
     background-color: yellowgreen;
     width: 30%; 
     height: 10%;
