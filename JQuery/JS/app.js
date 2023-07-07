@@ -76,4 +76,28 @@ $(document).ready(()=>{
         $("#slidePara").slideToggle(1000);
     })
 
+    $("#changeBtn").click(()=>{
+        $("#changeTA").val("Value of textarea is changed");
+    });
+
+    $("#animateBtn").click(()=>{
+        $(".animatePara").animate({
+            opacity:0.3,
+            height:'100px',
+            width:'200px'
+        }, 3000);
+    });
+
+    $("#add-class-btn").click(()=>{
+        $("#addClassPara").addClass("myClass");
+        console.log(document.getElementById("addClassPara").className);
+        // $("#addClassPara").removeClass("myClass");
+        // console.log(document.getElementById("addClassPara").className);
+    });
+
+    $(".changeCSS").click(()=>{
+        $(".changeCssPara").css('background-color', 'red');
+        $(".changeCssPara").css('color', 'yellow');
+    });
+
 });
